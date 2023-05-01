@@ -4,7 +4,7 @@ while (win == "" || win == null) {
   win = prompt("Давай говори! флиртую с тобой - не видишь что ли?!?!?!");
 }
 //while (win == "" || win == null){
-  alert("Точно " + win + "??  хочешь быть моим boyfriend-oм? Я с тобой поиграю....");
+  alert("Точно " + win + "?? хочешь, Я с тобой поиграю....");
 
 
 
@@ -16,17 +16,17 @@ let numberOfGueses = 0;
 
 while (guess != number) {
     if (guess > number) {
-    guess = prompt("перебор"); 
+    guess = prompt("Перебор, попробуй меньше"); 
     numberOfGueses = numberOfGueses + 1;
 }
 
 if (guess < number) {
-    guess = prompt("недобор");
+    guess = prompt("Недобор, попробуй больше");
     numberOfGueses = numberOfGueses + 1;
 }
 }
 
-alert("Ты угадал " + "! Тебе понадобилось " + numberOfGueses + " попыток");
-alert("Поздравляю, Байгуш! мы все-таки будем играть")
+alert("Ты угадал " + win + "! Тебе понадобилось " + numberOfGueses + " попыток");
+alert("Поздравляю, игра окончена")
 
 
